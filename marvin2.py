@@ -48,7 +48,7 @@ if __name__ == "__main__":
 		observation = np.array(observation).reshape((24,1))
 		observation_arr.append(observation)
 
-		action = nn_prop(observation).reshape((4))
+		action = nn.nn_prop(observation).reshape((4))
 		observation, reward, done, info = env.step(action)
 
 	env.close()

@@ -1,4 +1,5 @@
 import numpy as np
+import pickle
 
 class NNBackProp:
     def __init__(self):
@@ -103,13 +104,14 @@ class NNBackProp:
 
         return prev
 
-    def set_weights(self, weights, copy=False):
-        if copy:
-            self.weights = [np.copy(l) for l in weights]
-        else:
-            self.weights = weights
-        
-    def get_weights(self, copy=False):
-        if copy:
-            return [np.copy(l) for l in self.weights]
-        return self.weights
+    def save_weights(self, file):
+        model = [self.nn, self.bias]
+        pickle.dump(model, open(file, 'wb'))
+
+    def load_weights(self, file):
+        model = pickle.load(open(file, 'rb'))
+
+        self.nn = model[0]
+        self.bias = model[1]
+
+
