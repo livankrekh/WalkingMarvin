@@ -39,4 +39,4 @@ And in trained state he can moves with the next speed:
 ![gif_marvin1](gifs/marvin3.gif)
 
 ## Bibliography
-[Policy gradient methodology](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
+* [Policy gradient methodology](https://papers.nips.cc/paper/1999/file/464d828b85b0bed98e80ade0a5c43b0f-Paper.pdf)
