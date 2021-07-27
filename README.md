@@ -23,4 +23,7 @@ Flag `-r` is used for running trained Marvin (by default pretrained model is use
 
 ## Results
 Basically, Marvin starts from the folowing state:
+
 ![gif_marvin1](gifs/marvin1.gif)
+![gif_marvin1](gifs/marvin2.gif)
+![gif_marvin1](gifs/marvin3.gif)
