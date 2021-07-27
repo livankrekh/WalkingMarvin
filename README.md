@@ -8,7 +8,7 @@ To install Marvin environment and dependencies, please, run following shell scri
 ```shell
 > ./install.sh
 ```
-It will install `python3.7` with all dependencies inside the virtualenv named `venv`.
+It installs `python3.7` with all dependencies inside the virtualenv named `venv`.
 
 To run Marvin, please, use the following commands:
 ```shell
@@ -34,7 +34,7 @@ The pretrained Marvin can walk in the next way:
 
 ![gif_marvin1](gifs/marvin2.gif)
 
-And in trained state he can moves with the next speed:
+And in the trained state he can moves with the next speed:
 
 ![gif_marvin1](gifs/marvin3.gif)
 
