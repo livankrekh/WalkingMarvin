@@ -1,7 +1,7 @@
 # Walking Marvin (bipedal walker problem)
-<center>Remember the sad Marvin from "Hitchhiker's guide to the galaxy"? In this project we train him to walk!</center>
+Remember the sad Marvin from "Hitchhiker's guide to the galaxy"? In this project we train him to walk!
 
-<center>![gif_sad_marvin](https://media.giphy.com/media/SFkjp1R8iRIWc/giphy.gif)</center>
+![gif_sad_marvin](https://media.giphy.com/media/SFkjp1R8iRIWc/giphy.gif)
 
 ##  Installation guide
 To install Marvin environment and dependencies, please, run following shell script:
@@ -22,4 +22,5 @@ or
 Flag `-r` is used for running trained Marvin (by default pretrained model is used)
 
 ## Results
-
+Basically, Marvin starts from the folowing state:
+![gif_marvin1](gifs/marvin1.gif)
