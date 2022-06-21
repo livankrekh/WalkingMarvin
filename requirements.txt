@@ -3,5 +3,5 @@ cloudpickle==1.2.1
 future==0.17.1
 gym==0.14.0
 h5py==2.9.0
-numpy==1.17.0
+numpy==1.22.0
 pandas==0.25.0
